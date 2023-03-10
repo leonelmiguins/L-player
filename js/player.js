@@ -2,6 +2,7 @@
 window.addEventListener('load', function() {
 
   writeMusicList();
+  writeAlbuns();
   document.querySelector('#btn-pause').style.display = 'none';
 
   const playlist = JSON.parse(localStorage.getItem('playlist'));
@@ -14,6 +15,35 @@ window.addEventListener('load', function() {
   document.querySelector('#menu-player-img').src = albumImg;
 
 });
+
+function writeAlbuns() {
+  fetch('https://raw.githubusercontent.com/leonelmiguins/l-player/main/music/music.json')
+  .then(response => response.json())
+  .then( data => {
+
+    const conteiner = document.querySelector('.conteiner-cards');
+
+    for(let i = '0'; i < 5; i++) {
+
+      let card = document.createElement('div');
+
+      card.innerHTML =
+      `<div class="card" onclick="playAlbum('${i}')">
+      <img  class="card-img" src="https://cdn0.casamentos.com.br/vendor/4182/3_2/960/jpg/dsc-0417-editar_13_214182.jpeg"> 
+      <span style="color: rgb(160, 236, 231); margin-left: 5px;">This is Nota Jazz</span>
+      <span style="margin-left: 5px;">${data[i]['band']}</span>
+      </div>`
+
+      conteiner.appendChild(card);
+
+    }
+
+
+
+
+
+  });
+}
 
 function acessMusicDB(key) {
   // Requisição http para o arquivo json no github que contém o dado das músicas
