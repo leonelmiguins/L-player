@@ -1,7 +1,8 @@
 {
   
-  "extrememetal": {
-    "album": "Metal Extreme",
+  "6": {
+    "band": "Playlist", "album": "Extreme Metal", "genero": "Metal",
+    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6e409b104383247.5f61dda7a39f1.jpg",
     "desc": "O metal, também conhecido como heavy metal, é um gênero musical originário do rock que se desenvolveu na década de 1960 e 1970. Caracterizado por riffs de guitarra pesados, bateria poderosa e vocais gritados ou cantados em tons mais graves, o metal é um estilo musical que atrai muitos fãs por todo o mundo. As letras do metal muitas vezes abordam temas como a luta contra a opressão, a rebelião, a raiva e a frustração, bem como a busca pela liberdade e a expressão pessoal. Embora o metal tenha sido alvo de críticas e controvérsias ao longo de sua história, é inegável o impacto cultural que o gênero tem exercido na música e na cultura popular.",
     "musica": {
       "1": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2puc0hrL29EY0VyelloVEZSWGZKUlNBRVhNMzQweWp5U0wwd3pxK3NwRmFHbUVTd1RhdlVjSVU2U2JLZVJhS2c9/Pantera_-_Walk_(ColdMP3.com).mp3",
@@ -22,8 +23,9 @@
     }
   },
 
-  "megadeth": {
-    "album": "Megadeth",
+  "5": {
+    "band": "Megadeth", "album": "Thi is Megadeth", "genero": "Heavy Metal",
+    "img": "",
     "desc": "O Megadeth é uma banda americana de heavy metal formada em Los Angeles, Califórnia, em 1983, pelo vocalista e guitarrista Dave Mustaine, após sua saída do Metallica. Com uma carreira que se estende por mais de três décadas, o Megadeth se tornou um dos nomes mais icônicos do metal, conhecido por sua mistura única de riffs pesados, letras provocativas e solos de guitarra virtuosos. Além de seu sucesso comercial, o Megadeth é conhecido por suas letras inteligentes e socialmente conscientes, abordando temas como política, guerra, religião e injustiça social. Com sua habilidade técnica inegável e energia intensa, o Megadeth continua a ser uma das bandas mais respeitadas e influentes da história do metal.",
     "musica": {
       "1": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudmFZYjEzU2kydnk1R1krU21RZmJkd0lRUW9hRkg2bUJjR3JERjM4dmpRbUE9/Megadeth_-_Hangar_18_(ColdMP3.com).mp3",
@@ -38,8 +40,9 @@
     }
   },
 
-  "eminem": {
-    "album": "Eminem",
+  "4": {
+    "band": "Eminem", "album": "Thi is Eminem", "genero": "Hip Hop",
+    "img": "",
     "desc": "Eminem, também conhecido como Slim Shady, é um rapper, produtor musical e ator americano. Nascido em 1972 em Detroit, Michigan, Eminem teve uma infância difícil e muitas vezes turbulenta, que serviu como inspiração para muitas de suas letras de rap posteriores. Com seu estilo único de rap rápido e agressivo e letras sinceras e emocionais, Eminem se tornou um dos artistas mais bem-sucedidos e influentes do rap e da música popular em geral.",
     "musica": {
       "1": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1RxTnhYUHhVQ2phNFQ4VDdxUk54SXd2ZDBGLy9YbWd3M1Y0bzcvZjliZkE9/Eminem_-_Not_Afraid_(ColdMP3.com).mp3"
@@ -50,8 +53,9 @@
     }
   },
 
-  "eletricrock": {
-    "album": "EletricRock",
+  "3": {
+    "band": "Playlist", "album": "Eletric Rock!", "genero": "Rock",
+    "img": "",
     "desc": "A sua playlist rock elétrico é uma coleção explosiva de músicas que vão fazer a sua cabeça vibrar. Com guitarras pesadas, baterias marcantes e vocais intensos, cada música é uma experiência sonora inesquecível que vai deixá-lo com a adrenalina lá em cima. Essa playlist é perfeita para quando você quer se sentir energizado e motivado, seja para trabalhar, fazer exercícios ou simplesmente para agitar uma festa. Cada música é escolhida a dedo para fornecer o máximo de energia, com ritmos acelerados, solos de guitarra incendiários e refrãos empolgantes que vão ficar na sua cabeça por dias.",
     "musica": {
       "1": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1VBUGVhWG5yWnF6VjF0cjdNTjRxZE1YMFAyazBUL1Zlb3UxblNVeWpnKzA9/Franz_Ferdinand_-_Take_Me_Out_(ColdMP3.com).mp3",
@@ -73,8 +77,9 @@
     }
   },
 
-    "notajazz": {
-    "band": "Nota Jazz",
+    "2": {
+    "band": "Nota Jazz", "album": "Thi is Nota Jazz", "genero": "Jazz",
+    "img": "https://cdn0.casamentos.com.br/vendor/4182/3_2/960/jpg/dsc-0417-editar_13_214182.jpeg",
     "desc": "Em quase 25 anos de estrada, o nota jazz teve varias formações . Nascido para tocar na noite, apurou um pouco e teve sua identidade assumida por todos esses longos anos, por também tocar temas próprios. Chryso Rocha - guitarra, Fernando Rueda - baixo, na banda desde a primeira formação, junto com Mário Ruy - bateria, Daniel Dias - trumpetes e Maestro Antonio Paulo - sax. Esta formação atua junta a metade desse tempo.",
     "musica": {
       "1": "https://65381g.ha.azioncdn.net/a/9/c/e/notajazz-6-bossinha-pra-ju-veio-rocha.mp3", 
@@ -93,8 +98,9 @@
     }
   },
   
-  "thepulserockband": {
-    "artista": "The Pulse Rock Band",
+  "1": {
+    "artista": "The Pulse Rock Band", "album": "Thi is The Pulse RB", "genero": "Rock Alternativo",
+    "img": "https://scontent.fcac3-1.fna.fbcdn.net/v/t1.18169-9/13330984_1124494124280838_8488286921925106766_n.jpg?stp=dst-jpg_s640x640&_nc_cat=103&ccb=1-7&_nc_sid=9267fe&_nc_ohc=smmyaXWbi9oAX-qz0-k&_nc_ht=scontent.fcac3-1.fna&oh=00_AfCaWQ6xzKqsirOh_AU4cd1nsUdx8qsD3GmTwLiexafhCg&oe=642B0C5A",
     "desc": "A banda formada em 2012 deve lançou seu primeiro album e deve lançar seu primeiro videoclipe nos proximos meses. Com influências que passam por The Hives, Cachorro Grande, Kings of Leon, Rolling Stones, Strokes, Oasis, dentre outros, o quinteto cearense The Pulse RB, consegue categoricamente mesclar todos os elementos necessários para se criar faixas na medida exata, com energia, letras inteligentes, gritos nervosos, guitarras bem elaboradas, backvocais precisos e excelentes composições.",
     "musica": {
       "1": "https://65381g.ha.azioncdn.net/a/5/e/9/thepulserockingband-02-outdoor.mp3", 
@@ -113,8 +119,9 @@
     }
   },
   
-  "bebadoshabilidosos": {
-    "artista": "Bebados Habilidosos",
+  "0": {
+    "artista": "Bebados Habilidosos", "album": "Thi is Bebados Habilidosos", "genero": "Blues Rock",
+    "img": "https://i1.sndcdn.com/artworks-95c6276d-9307-4725-ac05-624ee7be73bb-0-t240x240.jpg",
     "desc": "Da união de influências que vão de Muddy Waters a Noel Rosa, passando por Elvis Presley e Chico Buarque o som dos Bêbados Habilidosos faz parte da vida boêmia de Mato Grosso do Sul há pelo menos mais de uma década.Amigos reunidos festejando a noite aliando a batida vigorosa do Blues com a poesia do samba de raiz.",
     "musica": {
       "1": "https://65381g.ha.azioncdn.net/d/c/c/b/bebadoshabilidosos-mutantes.mp3", 
