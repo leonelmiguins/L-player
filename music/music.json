@@ -1,0 +1,137 @@
+{
+  
+  "extrememetal": {
+    "album": "Metal Extreme",
+    "desc": "O metal, também conhecido como heavy metal, é um gênero musical originário do rock que se desenvolveu na década de 1960 e 1970. Caracterizado por riffs de guitarra pesados, bateria poderosa e vocais gritados ou cantados em tons mais graves, o metal é um estilo musical que atrai muitos fãs por todo o mundo. As letras do metal muitas vezes abordam temas como a luta contra a opressão, a rebelião, a raiva e a frustração, bem como a busca pela liberdade e a expressão pessoal. Embora o metal tenha sido alvo de críticas e controvérsias ao longo de sua história, é inegável o impacto cultural que o gênero tem exercido na música e na cultura popular.",
+    "musica": {
+      "1": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2puc0hrL29EY0VyelloVEZSWGZKUlNBRVhNMzQweWp5U0wwd3pxK3NwRmFHbUVTd1RhdlVjSVU2U2JLZVJhS2c9/Pantera_-_Walk_(ColdMP3.com).mp3",
+      "2": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudjlRYlhXdno4M2diZ3ZwYndiK0ZEMXd6NFRpbmYzMW1MaFFOWFFmTUorREU9/Megadeth_-_Symphony_Of_Destruction_Remastered_2012_Remastered_2012_(ColdMP3.com).mp3",
+      "3": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2puc0hrL29EY0VyelloVEZSWGZKUlU5NXEvd3NBck5PWHdCcEhta0NlRlJkRytWR3lEelVKSUxQd25SQ2cwR009/System_Of_A_Down_-_Deer_Dance_(ColdMP3.com).mp3",
+      "4": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpR3FSV3l4VXVielhoTC9ETzh3Mlo1ejd0OHBHeTIzOHpyTGRpbXQvcTBZSkxzSUg0U1E2elVROWRZV1FkVkNRL2M9/Slayer_-_Angel_Of_Death_(ColdMP3.com).mp3",
+      "5": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpRVdRYU1xazA0N1YwQ0o2ZDdTY1l4UXcwNTJ3WjJId1d3K2YxQ2NlUDZVWTRXbmQreEhGOEtMYkFPMFhTNGRWT2M9/System_Of_A_Down_-_Forest_(ColdMP3.com).mp3",
+      "6": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpRVdRYU1xazA0N1YwQ0o2ZDdTY1l4USt0Z3ZLdUd1SUtoUDZPQzFNdmZIS0NYMVlJMHhuZ1Btck9qTFNwUEVOTkE9/Bullet_For_My_Valentine_-_Hand_Of_Blood_(ColdMP3.com).mp3"
+    },
+  
+    "musica_titulo": {
+      "1": "Walk - Pantera",
+      "2": "Symphony Of Destruction - Megadeth",
+      "3": "Deer Dance - System Of A Down",
+      "4": "Angel of Death - Slayer",
+      "5": "Forest System Of A Down",
+      "6": "Hand Of Blood - Bullet For My Valentine"
+    }
+  },
+
+  "megadeth": {
+    "album": "Megadeth",
+    "desc": "O Megadeth é uma banda americana de heavy metal formada em Los Angeles, Califórnia, em 1983, pelo vocalista e guitarrista Dave Mustaine, após sua saída do Metallica. Com uma carreira que se estende por mais de três décadas, o Megadeth se tornou um dos nomes mais icônicos do metal, conhecido por sua mistura única de riffs pesados, letras provocativas e solos de guitarra virtuosos. Além de seu sucesso comercial, o Megadeth é conhecido por suas letras inteligentes e socialmente conscientes, abordando temas como política, guerra, religião e injustiça social. Com sua habilidade técnica inegável e energia intensa, o Megadeth continua a ser uma das bandas mais respeitadas e influentes da história do metal.",
+    "musica": {
+      "1": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudmFZYjEzU2kydnk1R1krU21RZmJkd0lRUW9hRkg2bUJjR3JERjM4dmpRbUE9/Megadeth_-_Hangar_18_(ColdMP3.com).mp3",
+      "2": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudjlRYlhXdno4M2diZ3ZwYndiK0ZEMXd6NFRpbmYzMW1MaFFOWFFmTUorREU9/Megadeth_-_Symphony_Of_Destruction_Remastered_2012_Remastered_2012_(ColdMP3.com).mp3",
+      "3": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpRVdRYU1xazA0N1YwQ0o2ZDdTY1l4UVgyR2V0SVRZVWRKbFU1dmtPckl6eldQaXplNXI1Y2lDbzVpVGRPVVdFeUU9/Megadeth_-_A_Tout_Le_Monde_(ColdMP3.com).mp3"
+    },
+  
+    "musica_titulo": {
+      "1": "Hangar 18",
+      "2": "Symphony Of Destruction",
+      "3": "A Tout Le Monde"
+    }
+  },
+
+  "eminem": {
+    "album": "Eminem",
+    "desc": "Eminem, também conhecido como Slim Shady, é um rapper, produtor musical e ator americano. Nascido em 1972 em Detroit, Michigan, Eminem teve uma infância difícil e muitas vezes turbulenta, que serviu como inspiração para muitas de suas letras de rap posteriores. Com seu estilo único de rap rápido e agressivo e letras sinceras e emocionais, Eminem se tornou um dos artistas mais bem-sucedidos e influentes do rap e da música popular em geral.",
+    "musica": {
+      "1": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1RxTnhYUHhVQ2phNFQ4VDdxUk54SXd2ZDBGLy9YbWd3M1Y0bzcvZjliZkE9/Eminem_-_Not_Afraid_(ColdMP3.com).mp3"
+    },
+  
+    "musica_titulo": {
+      "1": "Not Afraid - Eminem"
+    }
+  },
+
+  "eletricrock": {
+    "album": "EletricRock",
+    "desc": "A sua playlist rock elétrico é uma coleção explosiva de músicas que vão fazer a sua cabeça vibrar. Com guitarras pesadas, baterias marcantes e vocais intensos, cada música é uma experiência sonora inesquecível que vai deixá-lo com a adrenalina lá em cima. Essa playlist é perfeita para quando você quer se sentir energizado e motivado, seja para trabalhar, fazer exercícios ou simplesmente para agitar uma festa. Cada música é escolhida a dedo para fornecer o máximo de energia, com ritmos acelerados, solos de guitarra incendiários e refrãos empolgantes que vão ficar na sua cabeça por dias.",
+    "musica": {
+      "1": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1VBUGVhWG5yWnF6VjF0cjdNTjRxZE1YMFAyazBUL1Zlb3UxblNVeWpnKzA9/Franz_Ferdinand_-_Take_Me_Out_(ColdMP3.com).mp3",
+      "2": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd2JtQlJLbXc2Q2hDU2hJZlBCQWZWcG44ZG5ON2tmcUhHd3MvcWx2V0todVU9/Foo_Fighters_-_Everlong_(ColdMP3.com).mp3",
+      "3": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1kyUnk0MHp3VTJQRGdlVTZSbkdRSVE4Z1lZVmV5bEVseWsxZzZNUElUMDA9/The_Killers_-_Somebody_Told_Me_(ColdMP3.com).mp3",
+      "4": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd3pwT25HcFlIclFGdWMyaWxzbHlPc21Bb0NJMHJ4SHNqaG9VVXhLQVB2dkk9/Green_Day_-_Basket_Case_(ColdMP3.com).mp3",
+      "5": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd2VYMmdMSnQ0VlJXZWNaRlFBN2dQdUZ3OHEvQ0w3eGc1aDR5em1HY3Naekk9/Paramore_-_Misery_Business_(ColdMP3.com).mp3",
+      "6": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd3RFY0svTWh6Z3RJK21OTlc1NStsNEw3UE9tUG81a3czbUx6OUYxdmgvQjQ9/Linkin_Park_-_Don_t_Stay_(ColdMP3.com).mp3"
+
+    },
+  
+    "musica_titulo": {
+      "1": "Take Me Out - Franz Ferdinand",
+      "2": "Everlong - Foo Fighters",
+      "3": "Somebody Told Me - The Killers",
+      "4": "Basket Case - Green Day",
+      "5": "Misery Business - Paramore",
+      "6": "Don't Stay - linkin Park"
+    }
+  },
+
+    "notajazz": {
+    "band": "Nota Jazz",
+    "desc": "Em quase 25 anos de estrada, o nota jazz teve varias formações . Nascido para tocar na noite, apurou um pouco e teve sua identidade assumida por todos esses longos anos, por também tocar temas próprios. Chryso Rocha - guitarra, Fernando Rueda - baixo, na banda desde a primeira formação, junto com Mário Ruy - bateria, Daniel Dias - trumpetes e Maestro Antonio Paulo - sax. Esta formação atua junta a metade desse tempo.",
+    "musica": {
+      "1": "https://65381g.ha.azioncdn.net/a/9/c/e/notajazz-6-bossinha-pra-ju-veio-rocha.mp3", 
+      "2": "https://65381g.ha.azioncdn.net/3/2/9/2/notajazz-2-gabriel.mp3",
+      "3": "https://65381g.ha.azioncdn.net/8/9/e/5/notajazz-1-caminho-das-pedras.mp3",
+      "4": "https://65381g.ha.azioncdn.net/4/0/c/0/notajazz-3-madri-figli.mp3",
+      "5": "https://65381g.ha.azioncdn.net/4/8/a/8/notajazz-4-farangos.mp3"
+    },
+  
+    "musica_titulo": {
+      "1": "Bosinha para Ju", 
+      "2": "Gabriel",
+      "3": "Caminho das Pedras",
+      "4": "Madri Fligi",
+      "5": "Farangos"
+    }
+  },
+  
+  "thepulserockband": {
+    "artista": "The Pulse Rock Band",
+    "desc": "A banda formada em 2012 deve lançou seu primeiro album e deve lançar seu primeiro videoclipe nos proximos meses. Com influências que passam por The Hives, Cachorro Grande, Kings of Leon, Rolling Stones, Strokes, Oasis, dentre outros, o quinteto cearense The Pulse RB, consegue categoricamente mesclar todos os elementos necessários para se criar faixas na medida exata, com energia, letras inteligentes, gritos nervosos, guitarras bem elaboradas, backvocais precisos e excelentes composições.",
+    "musica": {
+      "1": "https://65381g.ha.azioncdn.net/a/5/e/9/thepulserockingband-02-outdoor.mp3", 
+      "2": "https://65381g.ha.azioncdn.net/b/4/f/7/thepulserockingband-04-mais-uma-vez.mp3",
+      "3": "https://65381g.ha.azioncdn.net/7/4/3/6/thepulserockingband-01-clovis-6abc2c.mp3",
+      "4": "https://65381g.ha.azioncdn.net/6/0/3/c/thepulserockingband-04-buscando-o-que-ninguem-tem-b1901b.mp3",
+      "5": "https://65381g.ha.azioncdn.net/f/7/8/4/thepulserockingband-02-a-procura-e37f1b.mp3"
+    },
+  
+    "musica_titulo": {
+      "1": "Outdoor", 
+      "2": "Maria Bonita na Terra de Godáh",
+      "3": "Culpa do Blues",
+      "4": "Buscando o que Nimguém Tem",
+      "5": "A Procura"
+    }
+  },
+  
+  "bebadoshabilidosos": {
+    "artista": "Bebados Habilidosos",
+    "desc": "Da união de influências que vão de Muddy Waters a Noel Rosa, passando por Elvis Presley e Chico Buarque o som dos Bêbados Habilidosos faz parte da vida boêmia de Mato Grosso do Sul há pelo menos mais de uma década.Amigos reunidos festejando a noite aliando a batida vigorosa do Blues com a poesia do samba de raiz.",
+    "musica": {
+      "1": "https://65381g.ha.azioncdn.net/d/c/c/b/bebadoshabilidosos-mutantes.mp3", 
+      "2": "https://65381g.ha.azioncdn.net/9/0/b/2/bebadoshabilidosos-amigos-de-copo.mp3",
+      "3": "https://65381g.ha.azioncdn.net/c/8/3/c/bebadoshabilidosos-whisky-blues.mp3",
+      "4": "https://65381g.ha.azioncdn.net/2/6/c/6/bebadoshabilidosos-perdedor.mp3",
+      "5": "https://65381g.ha.azioncdn.net/2/d/5/8/bebadoshabilidosos-ultimo-blues.mp3"
+    },
+  
+    "musica_titulo": {
+      "1": "Mutantes", 
+      "2": "Amigos de Copo",
+      "3": "Whisky e Blues",
+      "4": "Perdedor",
+      "5": "Último Blues"
+    }
+  }
+
+}
+  

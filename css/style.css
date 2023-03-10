@@ -1,0 +1,403 @@
+
+@font-face {
+    font-family: Ghotam-black;
+    src: url('../font/gotham-black.otf');
+}
+
+@font-face {
+    font-family: Metal-sentinel;
+    src: url('../font/metal-sentinel-cond.ttf');
+}
+
+@keyframes animate {
+    from {opacity: 1;}
+    from {opacity: 0;}
+}
+
+body {
+    font-family: Ghotam-black;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    color: #f5f5f5;
+    font-size: 15pt;
+    overflow: auto;
+}
+
+.menu-nav {
+    font-size: 16pt;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+}
+
+.menu-nav label{
+    font-size: 20pt;
+    color: aquamarine;
+}
+
+.menu-nav a {
+    font-size: 16pt;
+    color: rgb(231, 228, 228);
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu-nav a:hover {
+    color: rgb(117, 222, 187);
+}
+
+.menu-nav-social{
+    float: right;
+    position: absolute;
+    right: 0; 
+}
+
+.menu-nav div {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.menu-nav-list {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.menu-player {
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.945);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+}
+
+
+.menu-text-titulo{
+    font-size: 13pt;
+}
+
+.menu-text-banda{
+    color: rgb(160, 236, 231);
+    font-size: 12pt;
+}
+
+.menu-player-center {
+    margin-top: 10px;
+    display: flex;
+}
+
+.menu-player-btns{ 
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-player-btns img {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.menu-player-volume{
+    display: flex;
+    padding-right: 20px;
+   
+}
+
+.menu-player-volume img {
+    width: 22px;
+    height: 22px;
+    padding-top: 20px;
+}
+
+.volume {
+    width: 70px;
+    height: 5px;
+    margin-top: 28px;
+    accent-color: rgb(74, 217, 117);
+   
+    
+}
+
+.menu-player-left {
+    margin-top: 12px;
+    margin-left: 20px;
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+
+.menu-player-right {
+    font-size: 13pt;
+    margin-top: 15px;
+    margin-right: 20px;
+    right: 0;
+    position: absolute;
+    text-align: right;
+    display: flex;
+}
+
+.menu-player-dados {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.conteiner-banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    animation:  animate;
+    animation-duration: 1000ms;  
+    
+}
+
+.conteiner-banner img{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+  
+
+
+.player-fullscreen{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.853);
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top: 50px;
+    animation:  animate;
+    animation-duration: 800ms;
+    z-index: 1;
+}
+
+.player-fullscreen-list-music{
+    overflow: auto;
+    font-size: 13pt;
+    text-align: left;
+    padding: 10px;
+    margin-top: 55px;
+    min-width: 370px;
+}
+
+.player-fullscreen-list-music p{
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 5px;
+}
+
+.player-fullscreen-list-music p:hover{
+    background-color: rgba(128, 128, 128, 0.274);
+    color: aquamarine;
+}
+
+.player-fullscreen-btn-close{
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    font-size: 16pt;
+    border: 2px solid rgb(97, 97, 97);
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(45, 204, 180);
+    border-radius: 50%;
+}
+
+.player-fullscreen-desc{
+    margin-top: 40px;
+    margin-right: 50px;
+    padding-left: 10px;
+    font-size: 12pt;
+    color: rgb(214, 214, 214);
+    overflow: auto;
+    height: 350px;
+}
+
+.menu-player-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.conteiner{
+  display: grid;
+  overflow: auto;
+  animation:  animate;
+  animation-duration: 1500ms;
+  
+}
+
+::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fffcfc0e;
+}
+
+.conteiner-cards{
+    display: flex;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #434242;
+    overflow: hidden;
+}
+  
+.progress {
+    height: 5px;
+    background-color:#62c1d4;
+    width: 0%; 
+    transition: width 0.3s ease-in-out;
+}
+  
+
+.card{
+    font-size: 11pt;
+    max-width: 190px;
+    border: none;
+    height: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 8px 8px 30px black;
+    text-align: left;
+    display: grid;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    background-color: rgb(45, 45, 45);
+}
+
+.card-img{
+    width: 190px;
+    height: 180px;
+    border-radius: 5px; 
+}
+
+@media (max-width: 800px){
+
+    .player-fullscreen-desc{
+        display: none;
+    }
+
+    .menu-text-titulo, .menu-text-banda {
+        font-size: 9pt;
+
+    }
+
+    .menu-player img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+
+    }
+
+    .menu-player-right, .menu-player-left{
+        font-size: 7pt;
+    }
+
+    .menu-player{
+        margin: 0;
+        bottom: -5px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 700px){
+
+    .menu-nav-list a {
+        font-size: 10pt;
+    }
+
+    .menu-nav div {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .menu-nav label{
+        font-size: 13pt;
+        margin-left: 0;
+    }
+
+    .menu-player-img{
+        margin-top: 50px;
+        width: 150px;
+        height: 150px; 
+    }
+
+    .card {
+        width: 140px;
+        font-size: 8pt;
+        height: 180px;
+    }
+
+    .card-img {
+        width: 140px;
+        height: 120px;
+        border-radius: 5px;     
+    }
+
+    .player-fullscreen-btn-close {
+        font-size: 16pt;
+        right: 0;
+
+    }
+
+    .player-fullscreen-list-music {
+        font-size: 10pt;
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    html, body {
+      overflow-x: hidden; /* para esconder a barra de rolagem horizontal caso o conteúdo ultrapasse o limite */
+      min-width: 500px;
+      font-size: 13pt;
+    }
+    
+    .player-fullscreen {
+        display: none;
+
+    }
+
+    .menu-nav-social {
+        display: none;
+    }
+
+  }
