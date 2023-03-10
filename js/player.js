@@ -23,24 +23,20 @@ function writeAlbuns() {
 
     const conteiner = document.querySelector('.conteiner-cards');
 
-    for(let i = '0'; i < 5; i++) {
+    for(let i = 0; i <= 6; i++) {
 
       let card = document.createElement('div');
 
       card.innerHTML =
-      `<div class="card" onclick="playAlbum('${i}')">
-      <img  class="card-img" src="https://cdn0.casamentos.com.br/vendor/4182/3_2/960/jpg/dsc-0417-editar_13_214182.jpeg"> 
-      <span style="color: rgb(160, 236, 231); margin-left: 5px;">This is Nota Jazz</span>
+      `<div class="card" onclick="playAlbum('${i}', '${data[i]['band']}', '${data[i]['img']}')">
+      <img  class="card-img" src='${data[i]['img']}'> 
+      <span style="color: rgb(160, 236, 231); margin-left: 5px;">${data[i]['album']}</span>
       <span style="margin-left: 5px;">${data[i]['band']}</span>
       </div>`
 
       conteiner.appendChild(card);
 
     }
-
-
-
-
 
   });
 }
@@ -292,20 +288,6 @@ function acessMusicDB(key) {
       console.error(error);
   });
 }
-
-// Espera o carregamento completo da página
-window.addEventListener('load', function() {
-  document.querySelector('#btn-pause').style.display = 'none';
-
-  const playlist = JSON.parse(localStorage.getItem('playlist'));
-  const playlistMusicaAtual = localStorage.getItem('playlistMusicaAtual');
-  const musicTitle = JSON.parse(localStorage.getItem('playlistTitle'));
-  const albumImg = localStorage.getItem('album_img');
-
-  document.querySelector('#player-title').innerHTML = musicTitle[playlistMusicaAtual];
-  document.querySelector('audio').src = playlist[playlistMusicaAtual];
-  document.querySelector('#menu-player-img').src = albumImg;
-});
 
 // Toca a próxima música
 function nextMusic() {
