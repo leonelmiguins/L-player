@@ -354,7 +354,6 @@ function playAlbum(key, band, img) {
   document.querySelector('#btn-pause').style.display = 'inline';
   document.querySelector('#player-band').innerHTML = band;
   document.querySelector('#menu-player-img').src = img;
-  document.querySelector('.conteiner').style.display = 'none';
   document.querySelector('.player-fullscreen').style.display = 'flex';
 
   progressUpdate();
@@ -386,14 +385,12 @@ function progressUpdate() {
 
 // Fecha o player
 function closePlayer() {
-  document.querySelector('.conteiner').style.display = 'grid';
   document.querySelector('.player-fullscreen').style.display = 'none';
 
 }
 
 // Abre o player
 function openPlayer() {
-  document.querySelector('.conteiner').style.display = 'none';
   document.querySelector('.player-fullscreen').style.display = 'flex';
 
 }

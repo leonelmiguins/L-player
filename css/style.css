@@ -180,13 +180,14 @@ body {
 .player-fullscreen{
     display: none;
     background-color: rgba(0, 0, 0, 0.853);
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 85%;
+    height: 320px;
     top: 50px;
     animation:  animate;
     animation-duration: 800ms;
     z-index: 1;
+    box-shadow: 5px 5px 10px black;
 }
 
 .player-fullscreen-list-music{
@@ -216,7 +217,7 @@ body {
     top: 20px;
     right: 50%;
     font-size: 16pt;
-    border: 2px solid rgb(97, 97, 97);
+    border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
     transform: translate(-50%, -50%);
     width: 30px;
@@ -237,19 +238,11 @@ body {
 }
 
 .menu-player-img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 5px;
     padding: 30px;
-    margin-top: 40px;
-}
-
-.conteiner{
-  display: grid;
-  overflow: auto;
-  animation:  animate;
-  animation-duration: 1500ms;
-  
+    margin-top: 10px;
 }
 
 ::-webkit-scrollbar{
@@ -258,12 +251,6 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: #fffcfc0e;
-}
-
-.conteiner-cards{
-    display: flex;
-    margin-bottom: 50px;
-    overflow: auto;
 }
 
 .progress-bar {
@@ -282,13 +269,21 @@ body {
     width: 0%; 
     transition: width 0.3s ease-in-out;
 }
+
+.conteiner-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px)); /* define o número de colunas */
+    margin-bottom: 50px;
+    overflow: auto;
+
+}
   
 
 .card{
     font-size: 11pt;
-    max-width: 190px;
+    width: 180px;
     border: none;
-    height: 250px;
+    height: 240px;
     border-radius: 5px;
     margin: 10px;
     box-shadow: 8px 8px 30px black;
@@ -302,8 +297,8 @@ body {
 }
 
 .card-img{
-    width: 190px;
-    height: 180px;
+    width: 180px;
+    height: 170px;
     border-radius: 5px; 
 }
 
@@ -357,18 +352,6 @@ body {
         margin-top: 50px;
         width: 150px;
         height: 150px; 
-    }
-
-    .card {
-        width: 140px;
-        font-size: 8pt;
-        height: 180px;
-    }
-
-    .card-img {
-        width: 140px;
-        height: 120px;
-        border-radius: 5px;     
     }
 
     .player-fullscreen-btn-close {
