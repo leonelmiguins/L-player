@@ -6,34 +6,36 @@
 
 # Sobre
 
-L-player é um player de áudio criado com JavaScript puro, sem a necessidade de nenhuma biblioteca externa. Ele foi desenvolvido com o objetivo de oferecer uma experiência de áudio agradável e moderna.
+**L-player** é um player de áudio criado com JavaScript puro, sem a necessidade de nenhuma biblioteca externa.<br>
+Ele foi desenvolvido com o objetivo de oferecer uma experiência de áudio agradável e moderna.
 
-# Arquivo music.json
-
-O arquivo music.json contem os objetos com o link das músicas e seus respectivos títulos como no exemplo abaixo:
+# Adicionando suas músicas
 
 ```json
-"chave": {
-    "album": "Nome do album ou playlist",
+"id": {
+    "band": "Nome do artista", "album": "Nome do album / playlist", "genero": "Genero",
     "desc": "Descrição do album ou playlist",
     "musica": {
-      "1": "https://example/audio.mp3"
+      "1": "https://example/audio.mp3"//link do arquivo de áudio
     },
   
     "musica_titulo": {
-      "1": "Titulo da música - Artista"
+      "1": "Titulo da música"
     }
   },
 ```
 
+Este é  um exemplo de um objeto dentro do arquivo **music.json** que contém informações relacionadas a<br>
+um artista musical, um álbum ou uma playlist, bem como suas respectivas músicas. Aqui está uma explicação das diferentes chaves e valores:
 
-```html
-<div class="conteiner-cards">
+"**id**": é a chave principal do objeto, que é usada para identificar a playlist ou album.<br>
+"**band**": é uma chave que armazena o nome do artista musical.<br>
+"**album**": é uma chave que armazena o nome do álbum ou playlist.<br>
+"**genero**": é uma chave que armazena o gênero musical do álbum ou playlist.<br>
+"**desc**": é uma chave que armazena uma descrição do álbum ou playlist.<br>
+"**musica**": é uma chave que armazena um objeto com links para os arquivos de áudio das músicas do álbum ou playlist. No exemplo, há apenas uma música representada pela chave "1", mas poderia haver mais músicas, representadas pelas chaves "2", "3", etc.<br>
+"**musica_titulo**": é uma chave que armazena um objeto com os títulos das músicas do álbum ou playlist. Assim como em "musica", há apenas um título de música representado pela chave "1", mas poderia haver mais títulos de música.<br>
 
-    <div class="card" onclick="playAlbum('eminem', 'Eminem', 'https://e.snmc.io/i/1200/s/c30ed237123d36e9ca1f64f75c9ddfd6/4280175')">
-        <img  class="card-img" src="https://e.snmc.io/i/1200/s/c30ed237123d36e9ca1f64f75c9ddfd6/4280175"> 
-        <span style="color: rgb(160, 236, 231); margin-left: 5px;">This is Eminem</span>
-        <span style="margin-left: 5px;">Eminem</span>
-    </div>
-```
+
+
 
