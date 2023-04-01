@@ -1,8 +1,11 @@
 // Espera o carregamento completo da página
 window.addEventListener('load', function() {
 
-  writeMusicList();
+  checkLocalStorageExist();
   writeAlbuns();
+  writeMusicList();
+  
+  
   document.querySelector('#btn-pause').style.display = 'none';
 
   const playlist = JSON.parse(localStorage.getItem('playlist'));
@@ -17,7 +20,7 @@ window.addEventListener('load', function() {
 });
 
 function writeAlbuns() {
-  fetch('https://raw.githubusercontent.com/leonelmiguins/l-player/main/music/music.json')
+  fetch('https://raw.githubusercontent.com/leonelmiguins/L-player/main/json/music.json')
   .then(response => response.json())
   .then( data => {
     const conteiner = document.querySelector('.conteiner-cards');
@@ -73,6 +76,18 @@ function acessMusicDB(key) {
   .catch(error => {
       console.error(error);
   });
+}
+
+// checa se as chaves no local storage existem:
+function checkLocalStorageExist() {
+  const musicaTitle = JSON.parse(localStorage.getItem('playlistTitle'));
+  const musicaLink = JSON.parse(localStorage.getItem('playlist'));
+  const playerListMusic = document.getElementById("list-music");
+  const result = 'null';
+  if(result.includes(musicaTitle, musicaLink, playerListMusic)) {
+    console.log("Não existe nenhuma chave relacionada ao lplayer neste navegador!")
+
+  }
 }
 
 // Escreve lista de músicas do album no player
@@ -178,17 +193,14 @@ function progressUpdate() {
   
   document.querySelector('#player-duration').innerHTML = parseInt(duration / 60)+":"+parseInt(duration % 60);
   document.querySelector("#player-current-duration").innerHTML = +parseInt(currentTime / 60)+":"+parseInt(currentTime % 60);
-  
   });
-
 }
 
 // Pega os dados das músicas salvas no localStorage
 function getStorage() {
-  let playlist = JSON.parse(localStorage.getItem('playlist'));
-  let playlistMusicaAtual = localStorage.getItem('playlistMusicaAtual');
-  let musicTitle= JSON.parse(localStorage.getItem('playlistTitle'));
-  
+  const playlist = JSON.parse(localStorage.getItem('playlist'));
+  const playlistMusicaAtual = localStorage.getItem('playlistMusicaAtual');
+  const musicTitle= JSON.parse(localStorage.getItem('playlistTitle'));
   return playlist, playlistMusicaAtual, musicTitle;
 }
 
@@ -196,14 +208,12 @@ function getStorage() {
 function closePlayer() {
   document.querySelector('.conteiner').style.display = 'grid';
   document.querySelector('.player-fullscreen').style.display = 'none';
-
 }
 
 // Abre o mini Player
 function openPlayer() {
   document.querySelector('.conteiner').style.display = 'none';
   document.querySelector('.player-fullscreen').style.display = 'flex';
-
 }
 
 // Faz o download da faixa atual
@@ -220,13 +230,12 @@ function controlVolume() {
   const controleVolume = document.getElementById('controleVolume');
   controleVolume.addEventListener('input', function() {
   audio.volume = controleVolume.value; 
-
   }); 
 }
 
 function acessMusicDB(key) {
   // Requisição http para o arquivo json no github que contém o dado das músicas
-  fetch('https://raw.githubusercontent.com/leonelmiguins/l-player/main/music/music.json')
+  fetch('https://raw.githubusercontent.com/leonelmiguins/L-player/main/json/music.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Erro na requisição!');
