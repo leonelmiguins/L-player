@@ -20,24 +20,17 @@ function writeAlbuns() {
   fetch('https://raw.githubusercontent.com/leonelmiguins/l-player/main/music/music.json')
   .then(response => response.json())
   .then( data => {
-
     const conteiner = document.querySelector('.conteiner-cards');
-
     for(let i = 0; i <= 6; i++) {
-
       let card = document.createElement('div');
-
       card.innerHTML =
       `<div class="card" onclick="playAlbum('${i}', '${data[i]['band']}', '${data[i]['img']}')">
       <img  class="card-img" src='${data[i]['img']}'> 
       <span style="color: rgb(160, 236, 231); margin-left: 5px;">${data[i]['album']}</span>
       <span style="margin-left: 5px;">${data[i]['band']}</span>
       </div>`
-
       conteiner.appendChild(card);
-
     }
-
   });
 }
 
@@ -75,9 +68,7 @@ function acessMusicDB(key) {
       audio.addEventListener('canplaythrough', function() {
         audio.play();
       });
-
       writeMusicList();
-
   })
   .catch(error => {
       console.error(error);
