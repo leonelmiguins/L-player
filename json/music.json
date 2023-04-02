@@ -1,42 +1,46 @@
 {
   
   "6": {
-    "band": "Playlist", "album": "Extreme Metal", "genero": "Metal",
-    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6e409b104383247.5f61dda7a39f1.jpg",
-    "desc": "O metal, também conhecido como heavy metal, é um gênero musical originário do rock que se desenvolveu na década de 1960 e 1970. Caracterizado por riffs de guitarra pesados, bateria poderosa e vocais gritados ou cantados em tons mais graves, o metal é um estilo musical que atrai muitos fãs por todo o mundo. As letras do metal muitas vezes abordam temas como a luta contra a opressão, a rebelião, a raiva e a frustração, bem como a busca pela liberdade e a expressão pessoal. Embora o metal tenha sido alvo de críticas e controvérsias ao longo de sua história, é inegável o impacto cultural que o gênero tem exercido na música e na cultura popular.",
+    "band": "Playlist", "album": "Acoustic Blues", "genero": "Blues",
+    "img": "https://i.scdn.co/image/ab67706f00000003fd91f68999bf8fa3bee86176",
+    "desc": "",
     "musica": {
-      "1": "https://fine.sunproxy.net/file/SXVPVTI2RkE2QzQvazVUSjJwcXd1U3JwcDVNRDRXWkdBWFIvQ0RoTnVBaE9UR3lISVp0ZVRYSFVldStNU2pSUGxZK0plZGxnWUErREVlQXFvOXF3MkFtVEI2cHlPdEdkTmczTldOUXl1T0U9/Pantera_-_Walk_(ColdMP3.com).mp3",
-      "2": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudjlRYlhXdno4M2diZ3ZwYndiK0ZEMXd6NFRpbmYzMW1MaFFOWFFmTUorREU9/Megadeth_-_Symphony_Of_Destruction_Remastered_2012_Remastered_2012_(ColdMP3.com).mp3",
-      "3": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2puc0hrL29EY0VyelloVEZSWGZKUlU5NXEvd3NBck5PWHdCcEhta0NlRlJkRytWR3lEelVKSUxQd25SQ2cwR009/System_Of_A_Down_-_Deer_Dance_(ColdMP3.com).mp3",
-      "4": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpR3FSV3l4VXVielhoTC9ETzh3Mlo1ejd0OHBHeTIzOHpyTGRpbXQvcTBZSkxzSUg0U1E2elVROWRZV1FkVkNRL2M9/Slayer_-_Angel_Of_Death_(ColdMP3.com).mp3",
-      "5": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpRVdRYU1xazA0N1YwQ0o2ZDdTY1l4UXcwNTJ3WjJId1d3K2YxQ2NlUDZVWTRXbmQreEhGOEtMYkFPMFhTNGRWT2M9/System_Of_A_Down_-_Forest_(ColdMP3.com).mp3",
-      "6": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpRVdRYU1xazA0N1YwQ0o2ZDdTY1l4USt0Z3ZLdUd1SUtoUDZPQzFNdmZIS0NYMVlJMHhuZ1Btck9qTFNwUEVOTkE9/Bullet_For_My_Valentine_-_Hand_Of_Blood_(ColdMP3.com).mp3"
+      "1": "https://d1qg6pckcqcdk0.cloudfront.net/blues/sonhouse_thelegendarysonhousefatherofthefolkblues_08_sundown.m4a",
+      "2": "https://d1qg6pckcqcdk0.cloudfront.net/numeric/338000/338671.m4a",
+      "3": "https://d1qg6pckcqcdk0.cloudfront.net/numeric/200000/200349.m4a",
+      "4": "https://d1qg6pckcqcdk0.cloudfront.net/numeric/302000/302020.m4a",
+      "5": "https://d1qg6pckcqcdk0.cloudfront.net/blues/chatmanbrothers_themostunderratedbluesplayersever_76_ifyoudontwantmepleasedontdogmearound.m4a",
+      "6": "https://d1qg6pckcqcdk0.cloudfront.net/numeric/202000/202168.m4a"
     },
   
     "musica_titulo": {
-      "1": "Walk - Pantera",
-      "2": "Symphony Of Destruction - Megadeth",
-      "3": "Deer Dance - System Of A Down",
-      "4": "Angel of Death - Slayer",
-      "5": "Forest System Of A Down",
-      "6": "Hand Of Blood - Bullet For My Valentine"
+      "1": "Sundown - Son House",
+      "2": "911 Blues - Johnny B. Moore",
+      "3": "Rats in My Kitchen - Sleepy John Estes",
+      "4": "Loola Loo - Keb' Mo'",
+      "5": "If You Don't Want Me, Please Don't Dog",
+      "6": "No Education - Lightnin' Hopkins"
     }
   },
 
   "5": {
-    "band": "Megadeth", "album": "Thi is Megadeth", "genero": "Heavy Metal",
-    "img": "https://i.discogs.com/H7kp2n-Th_Kc-3xluKnwxUIv3bqu6CSX5tFJzX0m3IQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NDMx/OTgtMTQ4NjkyNDQ5/MC03NzQyLmpwZWc.jpeg",
-    "desc": "O Megadeth é uma banda americana de heavy metal formada em Los Angeles, Califórnia, em 1983, pelo vocalista e guitarrista Dave Mustaine, após sua saída do Metallica. Com uma carreira que se estende por mais de três décadas, o Megadeth se tornou um dos nomes mais icônicos do metal, conhecido por sua mistura única de riffs pesados, letras provocativas e solos de guitarra virtuosos. Além de seu sucesso comercial, o Megadeth é conhecido por suas letras inteligentes e socialmente conscientes, abordando temas como política, guerra, religião e injustiça social. Com sua habilidade técnica inegável e energia intensa, o Megadeth continua a ser uma das bandas mais respeitadas e influentes da história do metal.",
+    "band": "Playlist", "album": "Metal", "genero": "Metal",
+    "img": "https://cdns-images.dzcdn.net/images/cover/742f1b29cbd6010c3ab8bd958e53621f/500x500.jpg",
+    "desc": "O metal, também conhecido como heavy metal, é um gênero musical originário do rock que se desenvolveu na década de 1960 e 1970. Caracterizado por riffs de guitarra pesados, bateria poderosa e vocais gritados ou cantados em tons mais graves, o metal é um estilo musical que atrai muitos fãs por todo o mundo. As letras do metal muitas vezes abordam temas como a luta contra a opressão, a rebelião, a raiva e a frustração, bem como a busca pela liberdade e a expressão pessoal. Embora o metal tenha sido alvo de críticas e controvérsias ao longo de sua história, é inegável o impacto cultural que o gênero tem exercido na música e na cultura popular.",
     "musica": {
-      "1": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudmFZYjEzU2kydnk1R1krU21RZmJkd0lRUW9hRkg2bUJjR3JERjM4dmpRbUE9/Megadeth_-_Hangar_18_(ColdMP3.com).mp3",
-      "2": "https://fine.sunproxy.net/file/KzdvV2E5cG50M3FnaWRMbzgyNVB4eldKRHppanIvb0FFYTJGaEhicHNJc2ZqK1RMdWFVMlpQUGtSejd0bHZudjlRYlhXdno4M2diZ3ZwYndiK0ZEMXd6NFRpbmYzMW1MaFFOWFFmTUorREU9/Megadeth_-_Symphony_Of_Destruction_Remastered_2012_Remastered_2012_(ColdMP3.com).mp3",
-      "3": "https://fine.sunproxy.net/file/eERFeCtNR1k3RmhtRUpyK0ZPdGNBOTJlTmwvV1dkZGZlOUlHTFlrdnhpRVdRYU1xazA0N1YwQ0o2ZDdTY1l4UVgyR2V0SVRZVWRKbFU1dmtPckl6eldQaXplNXI1Y2lDbzVpVGRPVVdFeUU9/Megadeth_-_A_Tout_Le_Monde_(ColdMP3.com).mp3"
+      "1": "https://d1qg6pckcqcdk0.cloudfront.net/metal/metallica_killemall_02thefourhorsemen.m4a",
+      "2": "https://d1qg6pckcqcdk0.cloudfront.net/metal/metalchurch_thedark_06_thedark.m4a",
+      "3": "https://d1qg6pckcqcdk0.cloudfront.net/metal/anthrax_amongtheliving_02_caughtinamosh.m4a",
+      "4": "https://d1qg6pckcqcdk0.cloudfront.net/metal/municipalwaste_theartofpartyin_09_chemicallyaltered.m4a",
+      "5": "https://d1qg6pckcqcdk0.cloudfront.net/metal/revocation_revocation_09_entombedbywealth.m4a"
     },
   
     "musica_titulo": {
-      "1": "Hangar 18",
-      "2": "Symphony Of Destruction",
-      "3": "A Tout Le Monde"
+      "1": "The Four Horsemen - Metallica",
+      "2": "The Dark - Metal Church",
+      "3": "Caught in a Mosh - Anthrax",
+      "4": "Chemically Altered - Municipal Waste",
+      "5": "Entombed by Wealth - Revocation "
     }
   },
 
@@ -54,26 +58,26 @@
   },
 
   "3": {
-    "band": "Playlist", "album": "Eletric Rock!", "genero": "Rock",
-    "img": "https://img.vagalume.fm/1464201608479108132/bg",
-    "desc": "A sua playlist rock elétrico é uma coleção explosiva de músicas que vão fazer a sua cabeça vibrar. Com guitarras pesadas, baterias marcantes e vocais intensos, cada música é uma experiência sonora inesquecível que vai deixá-lo com a adrenalina lá em cima. Essa playlist é perfeita para quando você quer se sentir energizado e motivado, seja para trabalhar, fazer exercícios ou simplesmente para agitar uma festa. Cada música é escolhida a dedo para fornecer o máximo de energia, com ritmos acelerados, solos de guitarra incendiários e refrãos empolgantes que vão ficar na sua cabeça por dias.",
+    "band": "Playlist", "album": "Love Songs", "genero": "Rock",
+    "img": "https://i.scdn.co/image/ab67706c0000da849f737552d8b55bd7b57bda82",
+    "desc": "Essa playlist de músicas românticas é uma coleção de canções que expressam sentimentos de amor e paixão. Cada música escolhida apresenta letras que abordam temas românticos, como relacionamentos, saudade, e momentos especiais. Essa seleção pode variar em gênero musical, incluindo baladas românticas, canções de pop, rock, R&B ou música eletrônica. ",
     "musica": {
-      "1": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1VBUGVhWG5yWnF6VjF0cjdNTjRxZE1YMFAyazBUL1Zlb3UxblNVeWpnKzA9/Franz_Ferdinand_-_Take_Me_Out_(ColdMP3.com).mp3",
-      "2": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd2JtQlJLbXc2Q2hDU2hJZlBCQWZWcG44ZG5ON2tmcUhHd3MvcWx2V0todVU9/Foo_Fighters_-_Everlong_(ColdMP3.com).mp3",
-      "3": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1kyUnk0MHp3VTJQRGdlVTZSbkdRSVE4Z1lZVmV5bEVseWsxZzZNUElUMDA9/The_Killers_-_Somebody_Told_Me_(ColdMP3.com).mp3",
-      "4": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd3pwT25HcFlIclFGdWMyaWxzbHlPc21Bb0NJMHJ4SHNqaG9VVXhLQVB2dkk9/Green_Day_-_Basket_Case_(ColdMP3.com).mp3",
-      "5": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd2VYMmdMSnQ0VlJXZWNaRlFBN2dQdUZ3OHEvQ0w3eGc1aDR5em1HY3Naekk9/Paramore_-_Misery_Business_(ColdMP3.com).mp3",
-      "6": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd3RFY0svTWh6Z3RJK21OTlc1NStsNEw3UE9tUG81a3czbUx6OUYxdmgvQjQ9/Linkin_Park_-_Don_t_Stay_(ColdMP3.com).mp3"
+      "1": "https://d1qg6pckcqcdk0.cloudfront.net/decades/diamondneil_gd110_04septembermorn.m4a",
+      "2": "https://d1qg6pckcqcdk0.cloudfront.net/bored/keane_hopesandfears_01somewhereonlywekn.m4a",
+      "3": "https://d1qg6pckcqcdk0.cloudfront.net/classicrock/framptonpeter_shineonacollectio_04iminyou.m4a",
+      "4": "https://d1qg6pckcqcdk0.cloudfront.net/decades/ankapaul_thebestoftheuni_03_yourehavingmybaby.m4a",
+      "5": "https://d1qg6pckcqcdk0.cloudfront.net/chrgold/lfo_ch0321_summergirls.m4a",
+      "6": "https://d1qg6pckcqcdk0.cloudfront.net/latin/miguelluis_romance_07_contigoenladistancia.m4a"
 
     },
   
     "musica_titulo": {
-      "1": "Take Me Out - Franz Ferdinand",
-      "2": "Everlong - Foo Fighters",
-      "3": "Somebody Told Me - The Killers",
-      "4": "Basket Case - Green Day",
-      "5": "Misery Business - Paramore",
-      "6": "Don't Stay - linkin Park"
+      "1": "September Morn - Neil Diamond",
+      "2": "Somewhere Only We Know - Keane",
+      "3": "I'm in You - Peter Frampton",
+      "4": "(You're) Having My Baby - Paul Anka",
+      "5": "Summer Girls - LFO",
+      "6": "Contigo En La Distancia - Luis Miguel "
     }
   },
 

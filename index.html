@@ -28,30 +28,10 @@
     <br>
     <br>
     <!-- Player em fullscreen que fica oculto-->
-    <div class="player-fullscreen">
-        <div>
-            <img id="menu-player-img" src="" class="menu-player-img">
-        </div>
-        <div class="player-fullscreen-list-music" id="player-fullscreen-list-music">
-           <div class="player-fullscreen-btn-close" onclick="closePlayer()">x</div>
-           <div id="list-music">
-           <!-- Aqui dentro e gerado a lista das múicas da playlist-->
-           </div>
-        </div>
-        <div class="player-fullscreen-desc" id="player-fullscreen-desc">
-        </div>
-    </div>
-    <!-- Banner inicial da pagina-->
-    <div class="conteiner-banner">
-        <img id="img-banner" src="img/banner-1.png">
-    </div>
-    <br>
 
     <h3>Playlist & Albuns</h3>
-    <!-- Cards das músicas-->
-    <div class="conteiner-cards">
-        <!-- Card dos albuns seram escritos aqui via DOM. -->
-    </div>
+    <!-- Cards das músicas: Os albuns seram escritos aqui via DOM -->
+    <div class="conteiner-cards"></div>
     <br>
     <br>
    
@@ -60,37 +40,38 @@
         <div class="progress-bar">
             <div class="progress"></div>
         </div>
-          
-        <audio id="audio" src="" autoplay></audio>
-        <div class="menu-player-center">
-
-            <div class="menu-player-volume">
-                <img src="img/volume.png">
-                <input class="volume" type="range" id="controleVolume" min="0" max="1" step="0.1" value="1" onclick="controlVolume()"> 
-            </div>
-
-            <div style="margin-top: 20px;">
-                <span id="player-current-duration">00:00</span>
-                <span style="color: rgb(196, 190, 190);" id="player-duration">00:00</span><br>
-            </div>
-
-        </div>
+           <audio id="audio" src="" autoplay></audio>
+          <div class="menu-player-center">
+                
+          </div>
      
-        <div class="menu-player-left">
-            <img style="margin-top: 10px;" src="img/download.png" width="35px" height="35px" id="download" onclick="musicDownload();">
-            <div class="menu-player-dados">
-                <span class="menu-text-titulo" id="player-title">Titulo</span><br>
-                <span class="menu-text-banda" id="player-band">Banda</span>
-            </div>
-         </div>
+          <div class="menu-player-left">
+            <img id="menu-player-img" src="">
+                <div class="menu-player-dados">
+                    <span class="menu-text-titulo" id="player-title">Titulo</span><br>
+                    <span class="menu-text-banda" id="player-band">Banda</span><br>
+                    <div>
+                        <img style="margin-top: 10px;" src="img/download.png" width="20px" height="20px" id="download" onclick="musicDownload();">
+                    </div>
+                    
+                </div>
+          </div>
 
           <div class="menu-player-right">
+              <div class="menu-player-volume">
+                   <img src="img/volume.png">
+                   <input class="volume" type="range" id="controleVolume" min="0" max="1" step="0.1" value="1" onclick="controlVolume()"> 
+              </div>
+              <div style="margin-top: 20px;">
+                    <span id="player-current-duration">00:00</span>
+                    <span style="color: rgb(196, 190, 190);" id="player-duration">00:00</span><br>
+              </div>
               <div class="menu-player-btns">
-                <img src="img/prev.png" onclick="prevMusic()">
-                <img id="btn-play" src="img/play.png" onclick="playMusic()">
-                <img id="btn-pause" src="img/pause.png" onclick="pauseMusic()">
-                <img src="img/next.png" onclick="nextMusic()">
-             </div>
+                   <img src="img/prev.png" onclick="prevMusic()">
+                   <img id="btn-play" src="img/play.png" onclick="playMusic()">
+                   <img id="btn-pause" src="img/pause.png" onclick="pauseMusic()">
+                   <img src="img/next.png" onclick="nextMusic()">
+              </div>
          </div>
     </div>
       

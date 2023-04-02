@@ -1,11 +1,8 @@
 // Espera o carregamento completo da página
 window.addEventListener('load', function() {
 
-  checkLocalStorageExist();
   writeAlbuns();
-  writeMusicList();
-  
-  
+
   document.querySelector('#btn-pause').style.display = 'none';
 
   const playlist = JSON.parse(localStorage.getItem('playlist'));
@@ -16,16 +13,17 @@ window.addEventListener('load', function() {
   document.querySelector('#player-title').innerHTML = musicTitle[playlistMusicaAtual];
   document.querySelector('audio').src = playlist[playlistMusicaAtual];
   document.querySelector('#menu-player-img').src = albumImg;
-
 });
 
 function writeAlbuns() {
   fetch('https://raw.githubusercontent.com/leonelmiguins/L-player/main/json/music.json')
   .then(response => response.json())
   .then( data => {
+
+    const n = (Object.keys(data).length) - 1;
     const conteiner = document.querySelector('.conteiner-cards');
-    for(let i = 0; i <= 6; i++) {
-      let card = document.createElement('div');
+    for(let i = n; i >= 0; i--) {
+      const card = document.createElement('div');
       card.innerHTML =
       `<div class="card" onclick="playAlbum('${i}', '${data[i]['band']}', '${data[i]['img']}')">
       <img  class="card-img" src='${data[i]['img']}'> 
@@ -76,18 +74,6 @@ function acessMusicDB(key) {
   .catch(error => {
       console.error(error);
   });
-}
-
-// checa se as chaves no local storage existem:
-function checkLocalStorageExist() {
-  const musicaTitle = JSON.parse(localStorage.getItem('playlistTitle'));
-  const musicaLink = JSON.parse(localStorage.getItem('playlist'));
-  const playerListMusic = document.getElementById("list-music");
-  const result = 'null';
-  if(result.includes(musicaTitle, musicaLink, playerListMusic)) {
-    console.log("Não existe nenhuma chave relacionada ao lplayer neste navegador!")
-
-  }
 }
 
 // Escreve lista de músicas do album no player
@@ -258,31 +244,11 @@ function acessMusicDB(key) {
       const desc = document.createTextNode(musicaDesc.join(''));
       elementDesc.appendChild(desc);
 
-      //limpa a div para re-escrever
-      playerDesc.innerHTML = "";
-      playerDesc.appendChild(elementDesc);
-
       audio.src = musicaLink[0];
       // Espera o audio estar carregado 100% para dar o play e evitar erros
       audio.addEventListener('canplaythrough', function() {
         audio.play();
       });
-
-      // Obtém a div onde a lista será adicionado
-      const playerListMusic = document.getElementById("list-music");
-      //limpa a div para re-escrever
-      playerListMusic.innerHTML = "";
-
-      // criar lista de músicas
-      for (let i = 0; i < musicaLink.length; i++) {
-        // Cria um novo elemento de texto com o conteúdo do loop
-        const element = document.createElement('p');
-        const novoTexto = document.createTextNode(musicaTitle[i]);
-        element.appendChild(novoTexto);
-
-        // Adiciona o novo elemento de texto à div
-        playerListMusic.appendChild(element);
-      }
   })
   .catch(error => {
       console.error(error);
@@ -328,7 +294,6 @@ function prevMusic() {
 function playMusic() {
   const audio = document.querySelector('audio');
   audio.play();
-
   document.querySelector('#btn-play').style.display = 'none';
   document.querySelector('#btn-pause').style.display = 'inline';
 
@@ -338,7 +303,6 @@ function playMusic() {
 function pauseMusic() {
   const audio = document.querySelector('audio');
   audio.pause();
-
   document.querySelector('#btn-play').style.display = 'inline';
   document.querySelector('#btn-pause').style.display = 'none';
 
@@ -354,7 +318,6 @@ function playAlbum(key, band, img) {
   document.querySelector('#btn-pause').style.display = 'inline';
   document.querySelector('#player-band').innerHTML = band;
   document.querySelector('#menu-player-img').src = img;
-  document.querySelector('.player-fullscreen').style.display = 'flex';
 
   progressUpdate();
 
@@ -380,27 +343,23 @@ function progressUpdate() {
   document.querySelector("#player-current-duration").innerHTML = +parseInt(currentTime / 60)+":"+parseInt(currentTime % 60);
   
   });
-
 }
 
 // Fecha o player
 function closePlayer() {
   document.querySelector('.player-fullscreen').style.display = 'none';
-
 }
 
 // Abre o player
 function openPlayer() {
   document.querySelector('.player-fullscreen').style.display = 'flex';
-
 }
 
 // faz o dawload da música atual
 function musicDownload() {
-  let playlist = JSON.parse(localStorage.getItem('playlist'));
-  let playlistMusicaAtual = localStorage.getItem('playlistMusicaAtual');
+  const playlist = JSON.parse(localStorage.getItem('playlist'));
+  const playlistMusicaAtual = localStorage.getItem('playlistMusicaAtual');
   window.location.href = playlist[playlistMusicaAtual];
-
 }
 
 // Controla o volume da música atual
