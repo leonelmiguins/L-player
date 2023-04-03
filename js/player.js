@@ -56,7 +56,6 @@ function acessMusicDB(key) {
 
       document.querySelector('#player-title').innerHTML = musicaTitle[0];
 
-      const playerDesc = document.querySelector('#player-fullscreen-desc')
       const elementDesc = document.createElement("p");
       const desc = document.createTextNode(musicaDesc.join(''));
       elementDesc.appendChild(desc);
@@ -239,7 +238,7 @@ function acessMusicDB(key) {
       localStorage.setItem('playlistMusicaAtual', 0);
       document.querySelector('#player-title').innerHTML = musicaTitle[0];
 
-      const playerDesc = document.querySelector('#player-fullscreen-desc')
+      //document.body.style.backgroundImage = `url(${localStorage.getItem('album_img')})`
       const elementDesc = document.createElement("p");
       const desc = document.createTextNode(musicaDesc.join(''));
       elementDesc.appendChild(desc);
@@ -279,7 +278,7 @@ function prevMusic() {
   let musicTitle= JSON.parse(localStorage.getItem('playlistTitle'));
   
   playlistMusicaAtual = playlistMusicaAtual-1;
-  if (playlistMusicaAtual >= playlist.length) {
+  if (playlistMusicaAtual >= -1) {
   playlistMusicaAtual = 0; // volta para a última música
   }
   document.getElementById("audio").src = playlist[playlistMusicaAtual];

@@ -9,16 +9,15 @@
     src: url('../font/metal-sentinel-cond.ttf');
 }
 
-@keyframes animate {
+@keyframes opacity {
     from {opacity: 1;}
     from {opacity: 0;}
 }
 
 ::-webkit-scrollbar {
-    position: fixed;
-    z-index: -1;
     width: 0.5em;
     background-color: #00000000;
+
 }
   
 ::-webkit-scrollbar-thumb {
@@ -26,33 +25,35 @@
 }
 
 body {
+    position: absolute;
+    width: 100%;
     font-family: Ghotam-black;
     margin: 0;
-    width: 100%;
-    background-color: rgb(18, 18, 18);
+    background-color: #262626;
     color:rgb(225, 225, 225);
     font-size: 13pt;
-    overflow: scroll;
-    overflow-x: hidden;
-    z-index: 1;
+    overflow: auto;
+    z-index: -1;
 }
 
 .menu-nav {
     font-size: 13pt;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
+    left: 0;
     margin-bottom: 50px;
     text-align: center;
     width: 100%;
     height: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.729);
     color: white;
     display: flex;
 
 }
 
 .menu-nav label{
+    padding-top: 10px;
     font-size: 20pt;
     color: aquamarine;
 }
@@ -81,22 +82,16 @@ body {
     margin-top: 10px;
 }
 
-.menu-nav-list {
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-top: 15px;
-}
-
 .menu-player {
     text-align: center;
     background-color: rgba(3, 3, 3, 0.945);
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     height: 105px;
     display: flex;
-    justify-content: center;
-    z-index: 1;
+    z-index: 9999;
 }
 
 #menu-player-img {
@@ -107,12 +102,16 @@ body {
 }
 
 .menu-text-titulo{
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 .menu-text-banda{
     color: rgb(135, 194, 190);
-    font-size: 11pt;
+    font-size: 10pt;
+}
+
+#player-current-duration, #player-duration {
+    font-size: 10pt;
 }
 
 .menu-player-center {
@@ -123,32 +122,33 @@ body {
 .menu-player-btns{ 
     display: flex;
     margin-right: 20px;
+    padding-top: 15px;
 }
 
 .menu-player-btns img {
     padding-left: 20px;
     padding-top: 10px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .menu-player-volume{
     display: flex;
-    padding-right: 20px;
+    padding-right: 10px;
    
 }
 
 .menu-player-volume img {
     width: 22px;
     height: 22px;
-    padding-top: 20px;
+    padding-top: 27px;
 }
 
 .volume {
     width: 70px;
     height: 5px;
-    margin-top: 28px;
-    accent-color: rgb(74, 217, 117);
+    margin-top: 35px;
+    accent-color: aquamarine;
 }
 
 .menu-player-left {
@@ -192,13 +192,16 @@ body {
 }
 
 .conteiner-cards{
+    width: 100%;
+    height: 100%;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 180px)); /* define o número de colunas */
     margin-bottom: 50px;
     overflow: auto;
+    z-index: 0;
+    animation: opacity 2s;
 }
-  
 
 .card{
     font-size: 10pt;
@@ -206,6 +209,7 @@ body {
     border: none;
     height: 200px;
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.861);
     margin: 10px;
     box-shadow: 8px 8px 30px black;
     text-align: left;
@@ -223,78 +227,15 @@ body {
     border-radius: 5px; 
 }
 
-@media (max-width: 800px){
-
-    .player-fullscreen-desc{
-        display: none;
-    }
-
-    .menu-text-titulo, .menu-text-banda {
-        font-size: 9pt;
-
-    }
-
-    .menu-player img {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-    }
-
-    .menu-player-right, .menu-player-left{
-        font-size: 7pt;
-    }
-
-    .menu-player{
-        margin: 0;
-        bottom: -5px;
-        height: 70px;
-    }
+.circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    border-top-color: aquamarine;
+    animation: spin 3s linear infinite;
+    padding: 0;
 }
-
-@media (max-width: 700px){
-
-    .menu-nav-list a {
-        font-size: 10pt;
-    }
-
-    .menu-nav div {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
-    }
-
-    .menu-nav label{
-        font-size: 13pt;
-        margin-left: 0;
-    }
-
-    .player-fullscreen-btn-close {
-        font-size: 16pt;
-        right: 0;
-
-    }
-
-    .player-fullscreen-list-music {
-        font-size: 10pt;
-        width: 100px;
-    }
-
+@keyframes spin {
+    to { transform: rotate(360deg); }
 }
-
-@media screen and (max-width: 500px) {
-    html, body {
-      overflow-x: hidden; /* para esconder a barra de rolagem horizontal caso o conteúdo ultrapasse o limite */
-      min-width: 500px;
-      font-size: 13pt;
-    }
-    
-    .player-fullscreen {
-        display: none;
-
-    }
-
-    .menu-nav-social {
-        display: none;
-    }
-
-  }

@@ -45,15 +45,25 @@
   },
 
   "4": {
-    "band": "Eminem", "album": "Thi is Eminem", "genero": "Hip Hop",
-    "img": "https://e.snmc.io/i/1200/s/c30ed237123d36e9ca1f64f75c9ddfd6/4280175",
-    "desc": "Eminem, também conhecido como Slim Shady, é um rapper, produtor musical e ator americano. Nascido em 1972 em Detroit, Michigan, Eminem teve uma infância difícil e muitas vezes turbulenta, que serviu como inspiração para muitas de suas letras de rap posteriores. Com seu estilo único de rap rápido e agressivo e letras sinceras e emocionais, Eminem se tornou um dos artistas mais bem-sucedidos e influentes do rap e da música popular em geral.",
+    "band": "Playlist", "album": "Só love", "genero": "Romântico",
+    "img": "https://akamai.sscdn.co/tb/650x650/palcomp3-playlists/3415e89b-b615-4e65-8550-c85d0eb46744.jpg",
+    "desc": "Ouça essa playlist feita pela nossa equipe de especialistas em artistas independentes.",
     "musica": {
-      "1": "https://fine.sunproxy.net/file/NlFBMmdkYTJmTWl3WWUxb09QS2RNZHg1NllBaGhzdjFFTTdPbElCeHUvMVNCQ1dYM1VESTRIaENwa3pZN2Fpd1RxTnhYUHhVQ2phNFQ4VDdxUk54SXd2ZDBGLy9YbWd3M1Y0bzcvZjliZkE9/Eminem_-_Not_Afraid_(ColdMP3.com).mp3"
+      "1": "https://65381g.ha.azioncdn.net/6/8/3/f/oduraes-janela-2930ea32.mp3",
+      "2": "https://65381g.ha.azioncdn.net/3/4/5/4/willianbraz-minha-pele-fc935b0a.mp3",
+      "3": "https://65381g.ha.azioncdn.net/7/0/1/d/marcoromani-paraiso-particular-3a2d666a.mp3",
+      "4": "https://65381g.ha.azioncdn.net/c/7/3/6/chicoeomar-vem-ca-8356f3e9.mp3",
+      "5": "https://65381g.ha.azioncdn.net/b/4/a/3/bernardoorneles-encaixou-tao-bem-634bc01a.mp3",
+      "6": "https://65381g.ha.azioncdn.net/4/2/6/8/cesarbouli-vale-a-pena-11db8812.mp3"
     },
   
     "musica_titulo": {
-      "1": "Not Afraid - Eminem"
+      "1": "Janela - Durães",
+      "2": "Minha Pele - Willian Braz",
+      "3": "Paraíso Particular - Marco Romani",
+      "4": "Vem Cá - Chico e o Mar",
+      "5": "Encaixou Tão Bem - Bernardo Orneles",
+      "6": "Vale A Pena - Cesar Bouli"
     }
   },
 
