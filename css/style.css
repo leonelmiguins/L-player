@@ -225,7 +225,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     animation: opacity 2s;
-    
+    padding-bottom: 150px;
 }
 
 .card{
@@ -265,7 +265,7 @@ body {
 @media screen and (max-width: 650px) {
     .menu-player {
       display: grid;
-      height: 210px;
+      height: 180px;
       align-content: center;
       justify-content: center;
     }
@@ -275,7 +275,8 @@ body {
         margin-left: 5px;
         margin-right: 5px;
         margin-top: 0;
-
+        width: 98%;
+        
     }
 
     .menu-player-right {
@@ -284,16 +285,21 @@ body {
         margin-top: 0;
         justify-content: center;
         justify-items: center;
+        
     }
 
     .volume{
-        margin-top: 10px;
-        width: 150px;
+        margin-top: 20px;
+        width: 130px;
         padding: 0;
     }
 
     .menu-player-volume img  {
-        padding-top: 3px;
+        padding-top: 13px;
+    }
+    .menu-player-btns {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
   
     .menu-player-btns img  {
