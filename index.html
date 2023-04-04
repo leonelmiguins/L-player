@@ -11,7 +11,6 @@
     <title>LPlayer</title>
 </head>
 <body>
-<div class="background">
     <!-- Menu da barra de navegação superior-->
     <nav class="menu-nav">
         <div class="circle"></div> 
@@ -50,27 +49,25 @@
                            <span id="player-current-duration">00:00</span>
                            <span style="color: rgb(196, 190, 190);" id="player-duration">00:00</span><br>
                         </div>
-                    <div>
-                        <img style="margin-top: 10px;" src="img/download.png" width="20px" height="20px" id="download" onclick="musicDownload();">
-                    </div>
+                        <div class="menu-player-volume">
+                            <img src="img/volume.png">
+                            <input class="volume" type="range" id="controleVolume" min="0" max="1" step="0.1" value="1" onchange="controlVolume()"> 
+                       </div>
                     
                 </div>
           </div>
 
           <div class="menu-player-right">
-              <div class="menu-player-volume">
-                   <img src="img/volume.png">
-                   <input class="volume" type="range" id="controleVolume" min="0" max="1" step="0.1" value="1" onchange="controlVolume()"> 
-              </div>
+
 
               <div class="menu-player-btns">
                    <img src="img/prev.png" onclick="prevMusic()">
                    <img id="btn-play" src="img/play.png" onclick="playMusic()">
                    <img id="btn-pause" src="img/pause.png" onclick="pauseMusic()">
                    <img src="img/next.png" onclick="nextMusic()">
+                   <img class="download" src="img/download.png" onclick="musicDownload();">
               </div>
          </div>
     </div>
-</div>   
 </body>
 </html>

@@ -14,6 +14,30 @@
     from {opacity: 0;}
 }
 
+@keyframes alterna-cores {
+    0% {
+      background: linear-gradient(to bottom, rgba(6, 15, 42, 0.883), rgba(18, 36, 9, 0.908));
+    }
+    25% {
+        background: linear-gradient(to bottom, rgba(37, 6, 42, 0.883), rgba(53, 58, 15, 0.908));
+    }
+    50% {
+        background: linear-gradient(to bottom, rgba(6, 15, 42, 0.883), rgba(18, 36, 9, 0.908));
+    }
+    75% {
+        background: linear-gradient(to bottom, rgba(6, 42, 8, 0.883), rgba(18, 36, 9, 0.908));
+    }
+
+    100% {
+        background: linear-gradient(to bottom, rgba(37, 6, 42, 0.883), rgba(53, 58, 15, 0.908));
+    }
+}
+  
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
 ::-webkit-scrollbar {
     width: 0.5em;
     background-color: #00000000;
@@ -25,15 +49,15 @@
 }
 
 body {
-    position: absolute;
     width: 100%;
+    height: 100%;
     font-family: Ghotam-black;
     margin: 0;
-    background-color: #262626;
     color:rgb(225, 225, 225);
     font-size: 13pt;
     overflow: auto;
-    z-index: -1;
+    background-size: cover;
+    animation: alterna-cores 30s ease-out infinite;
 }
 
 .menu-nav {
@@ -139,15 +163,15 @@ body {
 }
 
 .menu-player-volume img {
-    width: 22px;
-    height: 22px;
-    padding-top: 27px;
+    width: 20px;
+    height: 20px;
+    padding-top: 9px;
 }
 
 .volume {
-    width: 70px;
+    width: 100px;
     height: 5px;
-    margin-top: 35px;
+    margin-top: 16px;
     accent-color: aquamarine;
 }
 
@@ -162,11 +186,14 @@ body {
 .menu-player-right {
     font-size: 13pt;
     margin-top: 15px;
-    margin-right: 20px;
     right: 0;
     position: absolute;
     text-align: right;
     display: flex;
+}
+
+.download {
+    margin-top: 1px;
 }
 
 .menu-player-dados {
@@ -195,12 +222,10 @@ body {
     width: 100%;
     height: 100%;
     justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 180px)); /* define o número de colunas */
-    margin-bottom: 50px;
-    overflow: auto;
-    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
     animation: opacity 2s;
+    
 }
 
 .card{
@@ -236,6 +261,45 @@ body {
     animation: spin 3s linear infinite;
     padding: 0;
 }
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
+
+@media screen and (max-width: 650px) {
+    .menu-player {
+      display: grid;
+      height: 210px;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .menu-player-left {
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0;
+
+    }
+
+    .menu-player-right {
+        position: relative;
+        display: grid;
+        margin-top: 0;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .volume{
+        margin-top: 10px;
+        width: 150px;
+        padding: 0;
+    }
+
+    .menu-player-volume img  {
+        padding-top: 3px;
+    }
+  
+    .menu-player-btns img  {
+        margin-top: 0;
+        padding: 10px;
+        padding-left: 30px;
+    }
+  }
+  
