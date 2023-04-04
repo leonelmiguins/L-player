@@ -1,7 +1,5 @@
 # L-PLAYER
 
-
-![alt text](img/print.png?raw=true)
 ![alt text](img/print2.png?raw=true)
 
 
